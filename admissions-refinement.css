@@ -1,0 +1,118 @@
+/* Integrated identity, mathematical figures, and source-based admissions. */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.header-inner.refined-header { height: auto; min-height: 116px; padding-block: 22px; gap: 32px; }
+.header-inner > .school-brand { flex: 1 1 auto; max-width: none; width: auto; flex-direction: row; align-items: center; gap: 22px; }
+.brand-logos { display: inline-flex; align-items: center; gap: 16px; flex-shrink: 0; }
+.university-crest { width: 77px; height: auto; flex: 0 0 77px; }
+.school-wordmark { display: block; min-width: 0; }
+.university-name { display: block; font: 14px/1.3 var(--serif); letter-spacing: .13em; margin-bottom: 5px; }
+.school-wordmark strong { display: block; font: 26px/1.4 var(--serif); letter-spacing: .06em; color: var(--purple-deep); }
+.english-name { display: block; font: 13px/1.5 var(--serif); color: var(--muted); margin-top: 5px; }
+.zhizhen-emblem { width: 55px; height: auto; flex: 0 0 55px; }
+#primary-nav { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.hero { padding-top: 45px; padding-bottom: 46px; }
+.research-card { border: 0; border-bottom: 1px solid var(--line); }
+.research-image { aspect-ratio: 18 / 11; background: #faf9f6; }
+.research-image img { object-fit: contain; transition: none; }
+.research-card:hover .research-image img { transform: none; }
+.math-caption { margin: 0; padding: 9px 1px 0; color: var(--muted); font-size: 11px; line-height: 1.6; }
+.research-copy { padding: 21px 0 25px; }
+.authentic-study { padding: 65px 0; }
+.study-lead { display: flex; justify-content: space-between; align-items: center; gap: 40px; }
+.study-lead h2 { color: white; font-size: 29px; letter-spacing: .025em; }
+.study-lead .heading-en { color: #dfcfe4; font-size: 18px; }
+.study-lead .eyebrow, .authentic-study .stage-number { color: #dcc17d; }
+.degree-path { display: flex; align-items: center; gap: 22px; white-space: nowrap; }
+.degree-path > span { color: #e9deed; font-size: 12px; }
+.degree-path strong { font: 48px/1 var(--serif); color: #edd49a; margin-right: 7px; }
+.degree-plus { color: #b5a1be !important; font-size: 23px !important; }
+.study-overview { color: #e3d7e8; font-size: 13px; line-height: 1.9; max-width: 850px; margin: 28px 0 35px; }
+.study-stages { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 30px; }
+.study-stages article { border-top: 1px solid #8d7095; padding-top: 18px; }
+.stage-number { font-size: 10px; letter-spacing: .1em; }
+.study-stages h3 { color: white; font: 21px/1.5 var(--serif); margin: 13px 0 12px; }
+.study-stages h3 small { display: block; color: #cfbbd8; font: 11px/1.5 var(--sans); margin-top: 5px; }
+.study-stages p { color: #dfd0e5; font-size: 12px; line-height: 1.9; }
+.study-core { border-top: 1px solid #795a83; margin-top: 25px; padding-top: 20px; font-size: 11px; color: #dac9e1; }
+.study-core p { margin-bottom: 10px; line-height: 1.9; }
+.admissions-section { background: #faf9f6; }
+.admissions-section h3 { font-family: var(--serif); font-size: 25px; line-height: 1.5; color: var(--purple-deep); }
+.admissions-section h3 small { display: block; margin-top: 4px; font-size: 15px; font-weight: 400; color: var(--muted); }
+.admissions-section .section-heading > p { max-width: 425px; line-height: 1.9; }
+.admissions-intro { display: flex; justify-content: space-between; align-items: center; gap: 40px; padding: 30px 0; border-top: 2px solid var(--gold); border-bottom: 1px solid var(--line); }
+.admissions-year { font-size: 11px; letter-spacing: .1em; color: var(--gold-ink); }
+.admissions-intro h3 { margin: 10px 0; font-size: 29px; }
+.admissions-intro p { font-size: 13px; line-height: 1.8; margin: 0; }
+.admissions-deadline { display: flex; flex-direction: column; align-items: flex-start; min-width: 220px; }
+.admissions-deadline > span { font-size: 12px; }
+.admissions-deadline strong { display: block; font: 34px/1.5 var(--serif); color: var(--purple); margin-bottom: 12px; }
+.admissions-deadline .button { padding: 11px 16px; font-size: 12px; }
+.admissions-columns { display: grid; grid-template-columns: .9fr 1.1fr; gap: 70px; padding-top: 42px; }
+.selection-list { list-style: none; margin: 25px 0; padding: 0; }
+.selection-list li { display: flex; gap: 18px; padding-block: 19px; border-top: 1px solid var(--line); }
+.selection-list li > span { color: var(--gold-ink); font: 17px/1.6 var(--serif); }
+.selection-list h4 { margin: 0 0 7px; font-size: 15px; font-weight: 500; }
+.selection-list p { font-size: 13px; line-height: 1.9; margin: 0; }
+.admissions-calendar table { border-collapse: collapse; width: 100%; margin-top: 25px; font-size: 13px; }
+.admissions-calendar th, .admissions-calendar td { padding: 13px 10px; text-align: left; border-bottom: 1px solid var(--line); font-weight: 400; }
+.admissions-calendar th:first-child { padding-left: 0; }
+.admissions-calendar thead th { font-size: 11px; color: var(--muted); padding-top: 0; }
+.deadline-row { color: var(--purple); background: #f0e9f2; }
+.admissions-calendar .deadline-row th { padding-left: 10px; font-weight: 600; }
+.admissions-source { font-size: 10px; line-height: 1.8; color: var(--muted); margin-top: 17px; }
+.admissions-contact { display: flex; justify-content: space-between; align-items: center; gap: 35px; margin-top: 32px; padding-top: 32px; border-top: 1px solid var(--line); }
+.admissions-contact h3 { font-size: 22px; margin-bottom: 8px; }
+.admissions-email { font-size: 14px; text-decoration: underline; text-underline-offset: 4px; }
+.admissions-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 15px 22px; }
+.admissions-actions .button { padding: 12px 17px; font-size: 12px; }
+.admissions-actions .text-link { font-size: 11px; }
+.footer-top .refined-footer-brand { width: 43%; max-width: 490px; flex-direction: row; align-items: center; gap: 18px; }
+.footer-emblem { width: 43px; height: auto; flex: 0 0 43px; }
+.refined-footer-brand strong { font: 19px/1.5 var(--serif); color: white; }
+.footer-english { display: block; color: #ded0e3; font: 12px/1.6 var(--serif); margin-top: 5px; }
+@media(max-width: 850px) {
+  .school-wordmark strong { font-size: 23px; }
+  .header-inner > .school-brand { gap: 16px; }
+  .study-lead { flex-direction: column; align-items: flex-start; gap: 25px; }
+  .study-stages { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .admissions-columns { gap: 35px; }
+  .admissions-contact { flex-direction: column; align-items: flex-start; }
+  .admissions-actions { justify-content: flex-start; }
+}
+@media(max-width: 650px) {
+  .header-inner.refined-header { min-height: 103px; padding-block: 17px; gap: 13px; }
+  .header-inner > .school-brand { flex-basis: auto; gap: 11px; }
+  .brand-logos { gap: 8px; }
+  .university-crest { width: 42px; flex-basis: 42px; }
+  .university-name { font-size: 10px; margin-bottom: 4px; }
+  .school-wordmark strong { font-size: clamp(14px,4vw,21px); letter-spacing: .01em; line-height: 1.5; }
+  .english-name { font-size: 9px; line-height: 1.5; margin-top: 4px; }
+  .zhizhen-emblem { width: 30px; flex-basis: 30px; }
+  #primary-nav, #primary-nav.is-open { grid-template-columns: repeat(5,minmax(0,1fr)); }
+  #primary-nav a, #primary-nav a:first-child, #primary-nav a:last-child { padding-inline: 2px; font-size: 11px; }
+  .hero { padding-top: 34px; }
+  .research-copy { padding: 18px 0 24px; }
+  .authentic-study { padding: 45px 0; }
+  .study-lead h2 { font-size: 27px; }
+  .study-lead .heading-en { font-size: 17px; }
+  .study-overview { font-size: 12px; margin-block: 25px; }
+  .study-stages { gap: 20px; }
+  .study-stages h3 { font-size: 19px; }
+  .study-stages p { font-size: 11px; }
+  .degree-path strong { font-size: 39px; }
+  .admissions-intro { flex-direction: column; align-items: flex-start; gap: 23px; padding-block: 24px; }
+  .admissions-intro h3 { font-size: 25px; }
+  .admissions-intro p { font-size: 12px; }
+  .admissions-deadline { width: 100%; }
+  .admissions-deadline strong { font-size: 31px; }
+  .admissions-columns { grid-template-columns: 1fr; gap: 30px; padding-top: 30px; }
+  .admissions-section h3 { font-size: 24px; }
+  .selection-list p { font-size: 12px; }
+  .admissions-calendar table { font-size: 12px; }
+  .admissions-calendar th, .admissions-calendar td { padding: 12px 6px; }
+  .admissions-contact h3 { font-size: 22px; }
+  .admissions-email { font-size: 12px; overflow-wrap: anywhere; }
+  .footer-top .refined-footer-brand { width: 100%; max-width: none; }
+  .refined-footer-brand strong { font-size: 18px; }
+  .footer-english { font-size: 11px; }
+}
